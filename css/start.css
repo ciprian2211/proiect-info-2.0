@@ -4,7 +4,7 @@
 --nav_color:#093A3E;
 --txt_color:#6CC8D0;
 --accent_color:#ED6A5A;
---backup_color:#97C8EB;
+--backup_color:#002120;
 --backupp2_color:#122B2A;
 }
 body {
@@ -13,6 +13,8 @@ body {
   background-color: var(--bg_color);
   transition: padding-top 0.5s ease;
   scroll-behavior: smooth;
+  opacity: 0;
+  transition: opacity 2s;
 }
 header {
   overflow: hidden;
@@ -42,6 +44,7 @@ footer p{
   justify-content: space-around;
   align-items: center;
   padding: 2% 1%;
+
 }
 .logo {
   color:var(--txt_color);
@@ -206,7 +209,7 @@ main{
   text-align: left;
   grid-row: 2;
   grid-column:  1;
-  font-size:20px;
+  font-size:1.1em;
   font-family:'Alata';
 }
 .ram{
@@ -286,7 +289,7 @@ main{
   text-align: left;
   grid-row: 2;
   grid-column:  1;
-  font-size:20px;
+  font-size:1.1em;
   font-family:'Alata';
 }
 .psu{
@@ -327,7 +330,7 @@ main{
   text-align: left;
   grid-row: 2;
   grid-column:  1;
-  font-size:20px;
+  font-size: 1.2em;
   font-family:'Alata';
 }
 .carcasa{
@@ -438,5 +441,5 @@ main{
 }
 .fade-in{
   animation: fade 2s ease-in;
-  animation-fill-mode: forwards;
+  animation-fill-mode:both;
 }

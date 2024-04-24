@@ -1,2 +1,72 @@
 @import 'start.css';
 
+main{
+    background-color:var(--nav_color);
+    position:relative;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,33.33%);
+}
+main .para_1{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 20px;
+    height: 35%;
+    padding: 5%;
+    border-radius: 10px;
+    font-family:'Alata';
+    color:var(--txt_color);
+    background-color: #002120;
+}
+main .para_2{
+    grid-row:2;
+    grid-column: 2;
+    font-family:'Alata';
+    color:var(--txt_color);
+    font-size: 20px;
+    background-color: #002120;
+    padding: 3%;
+    border-radius:10px;
+    height: 70%;
+}
+main .cp_1{
+    grid-row:1;
+    grid-column: 2;
+    margin-left: 15%;
+    width: fit-content;
+}
+main .cp_2{
+    grid-row:2;
+    grid-column: 1;
+    padding: 5%;
+    margin: 10px;
+    margin-top: -10%;
+    width: fit-content;
+    height: 80%;
+}
+main .para_3{
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #002120;
+    color:var(--txt_color);
+    border-radius:10px;
+    font-size: 20px;
+    padding: 3%;
+    list-style-type: none;
+}
+main .cp_3
+{
+    grid-row:3;
+    grid-column: 2;
+    position: absolute;
+    width: 65%;
+    height: 82%;
+    padding:5%;
+    margin-left: 15%;
+    
+}

@@ -1,2 +1,69 @@
 @import 'start.css';
+main{
+    background-color: var(--nav_color);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 33.33%);
+}
+main .para_1
+{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #002120;   
+    font-size: 1.3em;
+    font-family:'Alata';
+    padding: 60px;
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    color:var(--txt_color);
+}
+main .para_2{
+    grid-column: 2;
+    grid-row:2;
+    padding: 6%;
+    margin: 20px;
+    background-color: #002120;
+    border-radius: 10px;
+    color:var(--txt_color);
+    font-size: 1.3em;
+    list-style-type: disc;
 
+}
+main u{
+    font-family: 'Staatliches';
+    font-size: 1.5rem;
+}
+main .mt_1{
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 150px;
+}
+main .mt_2
+{
+    grid-row: 2;
+    grid-column: 1;
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 5%;
+}
+main figcaption{
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #002120;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    color: var(--txt_color);
+    margin-left: 22%;
+    text-align: center;
+    font-size: 1.3rem;
+}

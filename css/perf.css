@@ -1,2 +1,61 @@
 @import 'start.css';
 
+main{
+    background-color: var(--nav_color);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-family: 'Alata', sans-serif;
+    grid-template-rows: repeat(3,33.33%);
+}
+main .para_1
+{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 40px;
+    margin: 10px;
+    margin-top: 10%;   
+    height: 40%;
+    font-size: 1.4em;
+    background-color: #002120;
+    border-radius: 10px;
+    color: var(--txt_color);
+}
+main .para_2{
+    grid-row: 2;
+    grid-column: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: #002120;
+    border-radius: 10px;
+    font-size: 1em;
+    list-style-type: none;
+    color:var(--txt_color);
+}
+main .peri_1
+{
+    grid-row: 1;
+    grid-column: 2;
+    padding: 20px;
+    margin-left: 10%;
+}
+main .peri_2
+{
+    grid-row: 2;
+    grid-column: 1;
+    padding: 10px;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+main .peri_3
+{
+    grid-row: 3;
+    grid-column: 1;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 70%;
+    position: absolute;
+} 

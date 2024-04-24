@@ -1,0 +1,62 @@
+@import 'start.css';
+body{
+    font-family: 'Alata', sans-serif;    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--nav_color);
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    border: 3px solid var(--nav_color);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--txt_color);
+    border: 3px solid var(--accent_color);  
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    
+}
+h1{
+    border: 3px solid var(--nav_color);
+    border-radius: 10px;
+    color: var(--txt_color);
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+}
+h2{
+    margin: auto;
+    text-align: center; 
+    font-size: 2.3em;
+    color: var(--txt_color);
+}
+.realizator{
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    color:var(--txt_color);
+    text-align: center;
+}
+.indrumator{
+    width:30%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    color:var(--txt_color);
+    text-align: center;
+}
+a:hover{
+    background-color: var(--accent_color);
+}
